@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="styles.css">
+	<!-- <script src="js/less.js" charset="utf-8"></script> -->
+	<title>Music</title>
+</head>
+
+<body>
+
+	<!-- 播放器容器 -->
+	<div class="player">
+
+		<!-- 播放器名称 -->
+		<div class="header">音乐播放器</div>
+
+		<!-- 音乐专辑图 -->
+		<div class="albumPic"></div>
+
+		<!-- 音乐信息 -->
+		<div class="trackInfo">
+
+			<!-- 歌曲名 -->
+			<div class="name">可惜没如果</div>
+
+			<!-- 歌手 -->
+			<div class="artist">林俊杰</div>
+
+			<!-- 专辑名 -->
+			<div class="album">新地球</div>
+
+		</div>
+		<!-- 播放进度条 -->
+		<div class="progress"></div>
+
+		<!-- 控制区 -->
+		<div class="controls">
+
+			<!-- 播放 -->
+			<div class="play">
+				<i class="icon-play"></i>
+			</div>
+
+			<!-- 上一曲 -->
+			<div class="previous">
+				<i class="icon-to-start-alt"></i>
+			</div>
+
+			<!-- 下一曲 -->
+			<div class="next">
+				<i class="icon-to-end-alt"></i>
+			</div>
+		</div>
+
+		<!-- 播放时间 -->
+		<div class="time">
+
+			<!-- 当前时间 -->
+			<div class="current">0:34</div>
+
+			<!-- 歌曲总时间 -->
+			<div class="total">3:45</div>
+		</div>
+
+		<!-- 音频控件 -->
+		<!-- <input type="file" id="file"> -->
+		<audio id="audio">
+			<source src="">
+		</audio>
+
+	</div>
+<script src="js/jquery.js" charset="utf-8"></script>
+<script src="js/playlist.js" charset="utf-8"></script>
+<script src="js/index.js" charset="utf-8"></script>
+</body>
+
+</html>
